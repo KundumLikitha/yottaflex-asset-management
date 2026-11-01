@@ -64,35 +64,15 @@ Install dependencies:
 
 pip install -r requirements.txt
 
-Initialize the database:
-
 python -m database.db
-
-Generate master data:
-
 python -m generator.master_data
-
-Generate transaction data:
-
 python -m generator.transaction_data
-
-Generate exports:
-
+python -m validation.insert_inspections
+python -m validation.insert_test_cases
 python -m generator.export_data
-
-Run the dashboard:
+python -m validation.validate
 
 streamlit run app.py
-
-Validation
-
-Run exception detection:
-
-python -m logic.exception_detection
-
-Insert test scenarios:
-
-python -m validation.insert_test_cases
 
 Notes
 
