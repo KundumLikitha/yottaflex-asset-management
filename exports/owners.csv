@@ -1,0 +1,21 @@
+owner_id,owner_name,owner_type
+OWN-0001,"Gomez, Campbell and Thompson",CUSTOMER
+OWN-0002,Hall Inc,SUPPLIER
+OWN-0003,"Petersen, Anderson and Gonzalez",CUSTOMER
+OWN-0004,Fowler-Gallegos,SUPPLIER
+OWN-0005,"Rodriguez, Lee and Hernandez",COMPANY
+OWN-0006,Robinson Group,COMPANY
+OWN-0007,Chapman LLC,COMPANY
+OWN-0008,Richards Group,COMPANY
+OWN-0009,Brown and Sons,COMPANY
+OWN-0010,Ellis Inc,COMPANY
+OWN-0011,"Walker, Mora and Cook",CUSTOMER
+OWN-0012,Kim Group,CUSTOMER
+OWN-0013,Simmons Ltd,COMPANY
+OWN-0014,Martinez Group,COMPANY
+OWN-0015,"Clark, Brown and Jones",COMPANY
+OWN-0016,Evans and Sons,COMPANY
+OWN-0017,Garcia Group,SUPPLIER
+OWN-0018,Carroll Group,CUSTOMER
+OWN-0019,Garrett-Stevenson,CUSTOMER
+OWN-0020,Diaz PLC,CUSTOMER

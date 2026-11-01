@@ -1,0 +1,6 @@
+asset_type_id,type_name,description
+TYPE-001,PALLET,Reusable wooden or plastic pallets
+TYPE-002,CONTAINER,Reusable shipping containers
+TYPE-003,CRATE,Reusable storage crates
+TYPE-004,DRUM,Reusable industrial drums
+TYPE-005,TROLLEY,Reusable material handling trolleys

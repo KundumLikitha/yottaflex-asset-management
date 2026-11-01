@@ -1,0 +1,7 @@
+test_id,scenario,asset_id,expected_result
+GT-001,Asset at two simultaneous locations,ASSET-0000001,EXCEPTION
+GT-002,Return before dispatch,ASSET-0000002,EXCEPTION
+GT-003,Deposit refunded twice,ASSET-0000003,EXCEPTION
+GT-004,Repair closed without inspection,ASSET-0000004,EXCEPTION
+GT-005,Custody event missing actor,ASSET-0000005,EXCEPTION
+GT-006,Normal asset movement,ASSET-0000006,VALID

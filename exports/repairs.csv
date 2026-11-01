@@ -1,0 +1,2 @@
+repair_id,asset_id,inspection_id,repair_status,repair_cost,opened_date,closed_date
+REP-2026-000001,ASSET-0000004,,CLOSED,250.0,2026-10-18,2026-10-20
