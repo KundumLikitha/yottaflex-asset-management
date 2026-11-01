@@ -32,7 +32,7 @@ The generated dataset includes:
 - 20,000 reusable assets
 - 10,000 shipments
 - 20,000 shipment-asset links
-- 100,000 custody events
+- 100,003 custody events
 
 Data generation uses a fixed seed: "20261022".
 
@@ -97,3 +97,37 @@ python -m validation.insert_test_cases
 Notes
 
 The project uses synthetic data for demonstration. The exception test cases are deliberately invalid records used to verify detection logic. See the project documentation for implementation details and known limitations.
+
+## Additional Data Setup
+
+To insert the inspection records:
+
+```bash
+python -m validation.insert_inspections
+```
+
+To insert the five exception test scenarios (run only once on a fresh database):
+
+```bash
+python -m validation.insert_test_cases
+```
+
+To validate the database:
+
+```bash
+python -m validation.validate
+```
+
+To detect exceptions:
+
+```bash
+python -m logic.exception_detection
+```
+
+To export database records into CSV, JSON and SQL:
+
+```bash
+python -m generator.export_data
+```
+
+Note: Generate the master and transaction data before inserting inspection and test records.

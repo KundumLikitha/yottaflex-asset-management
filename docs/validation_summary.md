@@ -8,7 +8,7 @@
 | Shipments | 10,000 |
 | Custody Events | 100,003 |
 | Return Authorizations | 1 |
-| Inspections | 0 |
+| Inspections | 10 |
 | Repairs | 1 |
 | Deposit Ledger | 2 |
 
