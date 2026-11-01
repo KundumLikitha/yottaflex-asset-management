@@ -1,0 +1,30 @@
+from database.db import get_connection
+
+
+def insert_inspections():
+    inspection_records = [
+        ("INS-2026-000001", "ASSET-0000006", "2026-10-15", "GOOD", "Asset in good condition"),
+        ("INS-2026-000002", "ASSET-0000007", "2026-10-15", "DAMAGED", "Minor physical damage"),
+        ("INS-2026-000003", "ASSET-0000008", "2026-10-16", "GOOD", "Passed inspection"),
+        ("INS-2026-000004", "ASSET-0000009", "2026-10-16", "BEYOND_REPAIR", "Not suitable for reuse"),
+        ("INS-2026-000005", "ASSET-0000010", "2026-10-17", "GOOD", "No defects found"),
+        ("INS-2026-000006", "ASSET-0000011", "2026-10-17", "DAMAGED", "Requires maintenance"),
+        ("INS-2026-000007", "ASSET-0000012", "2026-10-18", "GOOD", "Passed quality check"),
+        ("INS-2026-000008", "ASSET-0000013", "2026-10-18", "GOOD", "Ready for reuse"),
+        ("INS-2026-000009", "ASSET-0000014", "2026-10-19", "DAMAGED", "Visible wear and tear"),
+        ("INS-2026-000010", "ASSET-0000015", "2026-10-19", "GOOD", "Asset condition acceptable")
+    ]
+
+    with get_connection() as connection:
+        connection.executemany("""
+            INSERT OR IGNORE INTO inspections
+            (inspection_id, asset_id, inspection_date,
+             inspection_result, notes)
+            VALUES (?, ?, ?, ?, ?)
+        """, inspection_records)
+
+    print("Inspection records inserted successfully!")
+
+
+if __name__ == "__main__":
+    insert_inspections()

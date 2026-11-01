@@ -120058,6 +120058,16 @@ CREATE TABLE inspections (
     notes TEXT,
     FOREIGN KEY (asset_id) REFERENCES assets(asset_id)
 );
+INSERT INTO "inspections" VALUES('INS-2026-000001','ASSET-0000006','2026-10-15','GOOD','Asset in good condition');
+INSERT INTO "inspections" VALUES('INS-2026-000002','ASSET-0000007','2026-10-15','DAMAGED','Minor physical damage');
+INSERT INTO "inspections" VALUES('INS-2026-000003','ASSET-0000008','2026-10-16','GOOD','Passed inspection');
+INSERT INTO "inspections" VALUES('INS-2026-000004','ASSET-0000009','2026-10-16','BEYOND_REPAIR','Not suitable for reuse');
+INSERT INTO "inspections" VALUES('INS-2026-000005','ASSET-0000010','2026-10-17','GOOD','No defects found');
+INSERT INTO "inspections" VALUES('INS-2026-000006','ASSET-0000011','2026-10-17','DAMAGED','Requires maintenance');
+INSERT INTO "inspections" VALUES('INS-2026-000007','ASSET-0000012','2026-10-18','GOOD','Passed quality check');
+INSERT INTO "inspections" VALUES('INS-2026-000008','ASSET-0000013','2026-10-18','GOOD','Ready for reuse');
+INSERT INTO "inspections" VALUES('INS-2026-000009','ASSET-0000014','2026-10-19','DAMAGED','Visible wear and tear');
+INSERT INTO "inspections" VALUES('INS-2026-000010','ASSET-0000015','2026-10-19','GOOD','Asset condition acceptable');
 CREATE TABLE locations (
     location_id TEXT PRIMARY KEY,
     location_name TEXT NOT NULL,

@@ -960072,7 +960072,78 @@
       "reference_id": "REF-001"
     }
   ],
-  "inspections": [],
+  "inspections": [
+    {
+      "inspection_id": "INS-2026-000001",
+      "asset_id": "ASSET-0000006",
+      "inspection_date": "2026-10-15",
+      "inspection_result": "GOOD",
+      "notes": "Asset in good condition"
+    },
+    {
+      "inspection_id": "INS-2026-000002",
+      "asset_id": "ASSET-0000007",
+      "inspection_date": "2026-10-15",
+      "inspection_result": "DAMAGED",
+      "notes": "Minor physical damage"
+    },
+    {
+      "inspection_id": "INS-2026-000003",
+      "asset_id": "ASSET-0000008",
+      "inspection_date": "2026-10-16",
+      "inspection_result": "GOOD",
+      "notes": "Passed inspection"
+    },
+    {
+      "inspection_id": "INS-2026-000004",
+      "asset_id": "ASSET-0000009",
+      "inspection_date": "2026-10-16",
+      "inspection_result": "BEYOND_REPAIR",
+      "notes": "Not suitable for reuse"
+    },
+    {
+      "inspection_id": "INS-2026-000005",
+      "asset_id": "ASSET-0000010",
+      "inspection_date": "2026-10-17",
+      "inspection_result": "GOOD",
+      "notes": "No defects found"
+    },
+    {
+      "inspection_id": "INS-2026-000006",
+      "asset_id": "ASSET-0000011",
+      "inspection_date": "2026-10-17",
+      "inspection_result": "DAMAGED",
+      "notes": "Requires maintenance"
+    },
+    {
+      "inspection_id": "INS-2026-000007",
+      "asset_id": "ASSET-0000012",
+      "inspection_date": "2026-10-18",
+      "inspection_result": "GOOD",
+      "notes": "Passed quality check"
+    },
+    {
+      "inspection_id": "INS-2026-000008",
+      "asset_id": "ASSET-0000013",
+      "inspection_date": "2026-10-18",
+      "inspection_result": "GOOD",
+      "notes": "Ready for reuse"
+    },
+    {
+      "inspection_id": "INS-2026-000009",
+      "asset_id": "ASSET-0000014",
+      "inspection_date": "2026-10-19",
+      "inspection_result": "DAMAGED",
+      "notes": "Visible wear and tear"
+    },
+    {
+      "inspection_id": "INS-2026-000010",
+      "asset_id": "ASSET-0000015",
+      "inspection_date": "2026-10-19",
+      "inspection_result": "GOOD",
+      "notes": "Asset condition acceptable"
+    }
+  ],
   "locations": [
     {
       "location_id": "LOC-0001",
